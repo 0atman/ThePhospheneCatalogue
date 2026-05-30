@@ -81,7 +81,7 @@ fn template(inner: Node) -> Node {
                     <div class="border-black border-8 container mx-auto">
 
                         <div class="flex w-full justify-center">
-                            <img class="w-1/2" alt="A photo of an art catelogue cover" src="logo.png" />
+                            <img class="w-1/3" alt="A photo of an art catelogue cover" src="logo.png" />
                         </div>
 
                             <br/>
@@ -98,8 +98,8 @@ fn template(inner: Node) -> Node {
 /// NOTE: the widget requires https to load
 fn widget() -> Node {
     html_node::html! {
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/y3wVvDbJHrU?si=19zRXxXpwnAGuB0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        }
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y3wVvDbJHrU?si=19zRXxXpwnAGuB0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    }
 }
 
 fn index() -> Node {
